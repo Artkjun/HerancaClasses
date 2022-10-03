@@ -1,7 +1,7 @@
 package herançaclasses;
 
 import javax.swing.JOptionPane;
-import javax.swing.JPopupMenu;
+
 
 public class HerançaClasses {
 
@@ -22,10 +22,10 @@ public class HerançaClasses {
             case 3 -> pessoa = new PessoaJuridica();
             case 4 -> pessoa = new Funcionario();
             default -> JOptionPane.showMessageDialog(null, "Tipo pessoa não existe!!");
-            
-            
-            
+                       
         }
+        
+        JOptionPane.showMessageDialog(null, "Concluido com sucesso!!");
     }
     
 }
